@@ -22,11 +22,15 @@ namespace NestedObjects
         /// <summary>
         /// month, day and year of birth
         /// </summary>
-        public DateOnly DateOnly {  get; set; }
+        public DateOnly DateOfBirth {  get; set; }
         /// <summary>
         /// The assigned school email 
         /// </summary>
         public string SchoolEmail {  get; set; }
+        /// <summary>
+        /// primary phone number
+        /// </summary>
+        public string PhoneNumber {  get; set; }
         /// <summary>
         /// Current advisor assigned to student
         /// </summary>
